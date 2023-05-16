@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+
+/*
+
+nav:1.5rem;
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 2.3rem;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+li{
+    list-style: none;
+    
+}
+
+
+/* ######### utility ############ */
+
+.off-white{
+    color: #e5e5e5;
+}
+
+.red{
+    color: #e50914;
+}
+
+/* ############# header ########## */
+
+.header{
+    /* border: 2px solid red; */
+    height: 110vh;
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,0)),url('http://occ-0-2186-2164.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABX7nK5rzly6om9Sy3x-XDprk8Icug2cOY8t3OUcQVmNuybGTM7-iV6-vLWrdEW4ZduIUEQfj-6w9VrsCUFu3gHAT-RcvQUP25OHK.webp?r=2bc');
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+    /* background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.2)); */
+}
+
+
+/* ########## navbar ################ */
+
+.header .navbar{
+
+    /* border: 2px solid; */
+    font-size: 1.5rem;
+    display: flex;
+    height: 68px;
+    justify-content: space-between;
+    padding: 0.5rem 8rem;
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,0));
+}
+
+
+/* ############# left ########## */
+
+.header .navbar .left{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 100%;
+}
+ 
+/* logo  */
+
+.header .navbar .left .logo{
+    /* border: 2px solid blue; */
+
+    height: 100%;
+    margin-right: 3rem;
+}
+
+/* logo-img  */
+
+.header .navbar .left .logo img{
+    height: 100%;
+}
+
+/* UL Container  */
+
+.left .menu-items{
+    width: 100%;
+}
+
+/* UL */
+
+.menu-items .items{
+    width: 100%;
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+/* li  */
+
+.menu-items .items .item{
+    margin-right: 2rem;
+}
+
+
+
+/* ############## Right ########### */
+
+.navbar .right{
+    /* border: 2px solid green; */
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* All divs  */
+
+.navbar .right div{
+    margin-left: 3rem;
+    /* border: 2px solid red; */
+    font-size: 2.3rem;
+}
+
+/* Profile  */
+
+.navbar .right .profile-image{
+    height: 80%;
+    border-radius: 8px;
+
+}
+
+.navbar .right .profile-image img{
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* ############ bill-board ######## */
+
+.bill-board{
+    /* border:2px solid; */
+    width: 40%;
+    font-size: 1.5rem;
+    padding: 5rem;
+    background: linear-gradient(rgba(0,0,0,.02),rgba(0,0,0,0));
+    position: absolute;
+    top:100px;
+}
+
+.bill-board .image{
+    margin-bottom: 2rem;
+}
+
+
+
+/* img */
+
+.bill-board img{
+    width: 100%;
+}
+
+/* text  */
+
+.bill-board .text{
+    margin-bottom: 2rem;
+    color: white;
+    font-size: 1.8rem;
+}
+
+
+/* buttons  */
+.bill-board .buttons{
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+
+/* btn  */
+
+.bill-board .buttons .btn{
+    /* border: 2px solid white; */
+    display: flex;
+    margin-right: 1rem;
+    color: white;
+    padding: 0.6rem 3rem;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    height: 100%;
+    font-weight: 700;
+    font-size: 2rem;
+    /* z-index: 15; */
+    
+    
+}
+
+
+/* btn i  */
+
+.bill-board .buttons .btn i{
+    margin-right: 1rem;
+}
+
+.bill-board .buttons .more-info i{
+    border: 3px solid white;
+    font-size: 1.4rem;
+    padding: 0.4rem 0.9rem;
+    border-radius: 50%;
+    
+}
+.bill-board .buttons .play i{
+    font-size: 3rem;
+}
+
+.bill-board .buttons .play{
+    /* background-color: #e5e5e5; */
+    background-color: white;
+    color: black;
+}
+
+.bill-board .buttons .play:hover{
+    
+    opacity: .6;
+}
+
+
+
+.bill-board .buttons .more-info{
+    background-color: rgba(109, 109, 110, 0.7);
+    color: white;
+
+}
+
+.bill-board .buttons .more-info:hover{
+    /* background: linear-gradient(rgba(109, 109, 110, 0.6),rgba(109, 109, 110, 0.6)); */
+    opacity: .6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
